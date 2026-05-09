@@ -1,0 +1,68 @@
+# slide-deck-defaults.yaml
+# Default visual style for the feiyi-slide-deck skill.
+# Override per-deck by passing a partial YAML or inline values.
+
+# Slide dimensions (inches)
+dimensions:
+  width: 13.333
+  height: 7.5
+
+# Typography
+fonts:
+  heading: "Aptos"
+  body: "Aptos"
+  code: "Fira Code"
+
+# Minimum font sizes (pt)
+font_sizes:
+  title: 28
+  subtitle: 18
+  body: 16
+  label: 12
+  code: 12
+  footer: 10
+
+# Accent palette (6 hex colors, no leading #)
+palette:
+  primary: "2B579A"
+  secondary: "1A7F64"
+  accent1: "C4652A"
+  accent2: "7B5EA7"
+  accent3: "D4A843"
+  neutral: "6B7280"
+
+# Text colors
+text:
+  heading: "1A1A2E"
+  body: "2D2D3A"
+  muted: "6B7280"
+  on_accent: "FFFFFF"
+
+# Card styling
+cards:
+  background: "FFFFFF"
+  corner_radius: 0.08
+  shadow: true
+  shadow_offset_x: 1
+  shadow_offset_y: 2
+  shadow_blur: 4
+  shadow_opacity: 25
+  accent_position: "left"
+  accent_width: 0.10
+
+# Slide background
+background: "FFFFFF"
+
+# Speaker notes
+notes:
+  enabled: true
+  style: "bullets"
+
+# Layout guardrails
+layout:
+  margin: 0.5
+  content_top: 1.4
+  content_bottom: 6.8
+  max_cards_per_slide: 6
+  max_bullets_per_slide: 7
+  column_gap: 0.15
