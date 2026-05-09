@@ -26,13 +26,13 @@ A Claude Code skill for generating professional PowerPoint presentations. Give i
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/<your-username>/feiyi-slide-deck.git
+git clone https://github.com/fwang2/slide-deck.git feiyi-slide-deck
 ```
 
 ### Option 2: Symlink from another location
 
 ```bash
-git clone https://github.com/<your-username>/feiyi-slide-deck.git ~/projects/feiyi-slide-deck
+git clone https://github.com/fwang2/slide-deck.git feiyi-slide-deck ~/projects/feiyi-slide-deck
 ln -s ~/projects/feiyi-slide-deck ~/.claude/skills/feiyi-slide-deck
 ```
 
